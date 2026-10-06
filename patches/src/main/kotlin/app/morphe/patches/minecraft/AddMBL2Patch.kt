@@ -5,7 +5,7 @@ import app.morphe.patcher.patch.bytecodePatch
 
 @Suppress("unused")
 val mtbinloader2Patch = bytecodePatch(
-    name = "Add mtbinloader2",
+    name = "Add mtbinloader2 lib",
     description = "Add libmtbinloader2.so to the app's native libraries.",
     default = true,
 ) {
