@@ -40,7 +40,7 @@ private val mtbinloader2LibPatch = resourcePatch {
 @Suppress("unused")
 val mtbinloader2Patch = bytecodePatch(
     name = "Add mtbinloader2 lib",
-    description = "Add libmtbinloader2.so to the app's native libraries.",
+    description = "Add libmtbinloader2.so to the app's native library path.",
     default = true,
 ) {
     compatibleWith(
