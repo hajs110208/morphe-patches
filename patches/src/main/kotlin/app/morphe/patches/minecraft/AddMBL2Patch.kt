@@ -10,19 +10,25 @@ val mtbinloader2Patch = bytecodePatch(
     default = true,
 ) {
     execute {
-        nativeLibraries.forEach { abi ->
-    val resourcePath = "minecraft/lib/$abi/libmtbinloader2.so"
-    val input = this::class.java.classLoader?.getResourceAsStream(resourcePath)
+        val nativeLibraries = listOf(
+            "arm64-v8a",
+            "armeabi-v7a",
+            "x86_64"
+        )
 
-    if (input != null) {
-        input.use { source ->
-            val destination = get(resourcePath, true)
-            destination.outputStream().use<java.io.OutputStream, Unit> { output ->
-                source.copyTo(output)
+        nativeLibraries.forEach { abi ->
+            val resourcePath = "minecraft/lib/$abi/libmtbinloader2.so"
+            val input = classLoader.getResourceAsStream(resourcePath)
+
+            if (input != null) {
+                input.use { source ->
+                    val destination = get(resourcePath, true)
+                    destination.outputStream().use { output ->
+                        source.copyTo(output)
+                    }
+                }
             }
         }
-    }
-}
         MinecraftPlatformOnCreateFingerprint.method.addInstructions(
             0,
             """
