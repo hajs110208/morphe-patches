@@ -5,7 +5,7 @@ import app.morphe.patcher.patch.bytecodePatch
 
 @Suppress("unused")
 val mtbinloader2Patch = bytecodePatch(
-    name = "Add mtbinloader2",
+    name = "Add mtbinloader2 lib",
     description = "Add libmtbinloader2.so to the app's native libraries.",
     default = true,
 ) {
@@ -18,7 +18,7 @@ val mtbinloader2Patch = bytecodePatch(
 
         nativeLibraries.forEach { abi ->
             val resourcePath = "minecraft/lib/$abi/libmtbinloader2.so"
-            val input = this::class.java.classLoader?.getResourceAsStream(resourcePath)
+            val input = classLoader.getResourceAsStream(resourcePath)
 
             if (input != null) {
                 input.use { source ->
