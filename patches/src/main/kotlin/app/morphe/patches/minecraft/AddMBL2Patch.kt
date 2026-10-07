@@ -4,6 +4,8 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.resourcePatch
+
+
 private val patchClassLoader = object {}.javaClass.classLoader
 
 private val NATIVE_ABIS = listOf(
@@ -11,6 +13,7 @@ private val NATIVE_ABIS = listOf(
     "armeabi-v7a",
     "x86_64",
 )
+
 private val mtbinloader2LibPatch = resourcePatch {
     execute {
         var copied = 0
@@ -31,3 +34,24 @@ private val mtbinloader2LibPatch = resourcePatch {
 
         if (copied == 0) {
             throw PatchException("libmtbinloader2.so not found in patch resources (minecraft/lib/<abi>/)")
+        }
+    }
+}
+@Suppress("unused")
+val mtbinloader2Patch = bytecodePatch(
+    name = "Add mtbinloader2 lib",
+    description = "Add libmtbinloader2.so to the app's native libraries.",
+    default = true,
+) {
+    dependsOn(mtbinloader2LibPatch)
+
+    execute {
+        MinecraftPlatformOnCreateFingerprint.method.addInstructions(
+            0,
+            """
+            const-string v0, "mtbinloader2"
+            invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+            """,
+        )
+    }
+}
