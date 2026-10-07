@@ -5,7 +5,9 @@ on:
     branches:
       - dev
   workflow_dispatch:
-
+permissions: 
+  pull-requests: write
+  contents: read
 env:
   MESSAGE: Merge branch `${{ github.head_ref || github.ref_name }}` to `main`
 
