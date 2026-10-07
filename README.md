@@ -35,14 +35,14 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.46.0](https://github.com/hajs110208/morphe-patches/releases/tag/v1.46.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v0.1.0](https://github.com/hajs110208/morphe-patches/releases/tag/v0.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
-<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Minecraft&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Add mtbinloader2 lib](#add-mtbinloader2-lib) | Add libmtbinloader2.so to the app's native libraries. |  |
+| [Add mtbinloader2 lib](#add-mtbinloader2-lib) | Add libmtbinloader2.so to the app's native library path. |  |
 
 </details>
 

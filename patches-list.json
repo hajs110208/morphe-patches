@@ -1,16 +1,34 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.46.0",
+  "version": "0.1.0",
   "patches": [
     {
       "name": "Add mtbinloader2 lib",
-      "description": "Add libmtbinloader2.so to the app's native libraries.",
-      "default": false,
+      "description": "Add libmtbinloader2.so to the app's native library path.",
+      "default": true,
       "category": null,
       "dependencies": [
         "ResourcePatch"
       ],
-      "compatiblePackages": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.mojang.minecraftpe",
+          "name": "Minecraft",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     }
   ]

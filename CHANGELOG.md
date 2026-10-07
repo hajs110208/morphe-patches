@@ -1,3 +1,13 @@
+## [0.1.0](https://github.com/hajs110208/morphe-patches/compare/v0.0.0...v0.1.0) (2026-10-07)
+
+### ⚠ BREAKING CHANGES
+
+* first release of this fork
+
+### ✨ New Features
+
+* first release ([a890a70](https://github.com/hajs110208/morphe-patches/commit/a890a700af8e74d45fb69b8d71b14f3ae2021c41))
+
 ## [1.46.0](https://github.com/hajs110208/morphe-patches/compare/v1.45.0...v1.46.0) (2026-10-07)
 
 ### 🐛 Bug Fixes
