@@ -1,3 +1,9 @@
+## [0.2.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.1.0...v0.2.0-dev.1) (2026-10-08)
+
+### ✨ New Features
+
+* Remove music patch ([1aa70b1](https://github.com/hajs110208/morphe-patches/commit/1aa70b1987ae3f7cc4f5ff0b4e6bed9be9c65ce1))
+
 ## [0.1.0](https://github.com/hajs110208/morphe-patches/compare/v0.0.0...v0.1.0) (2026-10-07)
 
 ### ⚠ BREAKING CHANGES

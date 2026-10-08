@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.1.0",
+  "version": "0.2.0-dev.1",
   "patches": [
     {
       "name": "Add mtbinloader2 lib",
@@ -10,6 +10,33 @@
       "dependencies": [
         "ResourcePatch"
       ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mojang.minecraftpe",
+          "name": "Minecraft",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove music",
+      "description": "Removes music files. This reduces app size.",
+      "default": false,
+      "category": null,
+      "dependencies": [],
       "compatiblePackages": [
         {
           "packageName": "com.mojang.minecraftpe",
