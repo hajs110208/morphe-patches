@@ -1,3 +1,9 @@
+## [0.2.1-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.2.0...v0.2.1-dev.1) (2026-10-10)
+
+### 🐛 Bug Fixes
+
+* fix patch description typo ([73bf8d4](https://github.com/hajs110208/morphe-patches/commit/73bf8d4d56a8fb8160ab1f1879f984acedc4d68b))
+
 ## [0.2.0](https://github.com/hajs110208/morphe-patches/compare/v0.1.0...v0.2.0) (2026-10-10)
 
 ### ✨ New Features
