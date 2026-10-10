@@ -1,3 +1,9 @@
+## [0.3.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.2.1-dev.1...v0.3.0-dev.1) (2026-10-10)
+
+### ✨ New Features
+
+* Add Documents provider patch ([a4d8639](https://github.com/hajs110208/morphe-patches/commit/a4d8639dab934f04a0aed10af44c25bd55d3f11b))
+
 ## [0.2.1-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.2.0...v0.2.1-dev.1) (2026-10-10)
 
 ### 🐛 Bug Fixes

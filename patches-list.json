@@ -1,7 +1,36 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.2.1-dev.1",
+  "version": "0.3.0-dev.1",
   "patches": [
+    {
+      "name": "Add documents provider",
+      "description": "Adds a documents provider so the app's data folders can be accessed from the system file manager.",
+      "default": true,
+      "category": null,
+      "dependencies": [
+        "ResourcePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mojang.minecraftpe",
+          "name": "Minecraft",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": null,
+          "signatures": null,
+          "targets": [
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Add mtbinloader2 lib",
       "description": "Add libmtbinloader2.so to the app's native library path.",
