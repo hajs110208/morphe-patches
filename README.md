@@ -24,7 +24,7 @@
 &nbsp;
 
 # 🧩 Patches
-Morphe Patches
+Minecraft PE Patches
 
 ## ❓ About
 
@@ -51,10 +51,6 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 <!-- PATCHES_END -->
 
 ## Contributing
-
-We currently accept pull requests for fixes/improvements to YouTube, YT Music, and Reddit.
-If you have developed patches for other apps, you are encouraged to release your patches in a third party repository.
-See the [Patches template](https://github.com/morpheapp/morphe-patches-template) for more information.  
 
 ## 📜 License
 
