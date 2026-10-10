@@ -1,3 +1,11 @@
+## [0.2.0](https://github.com/hajs110208/morphe-patches/compare/v0.1.0...v0.2.0) (2026-10-10)
+
+### ✨ New Features
+
+* Change Package Name ([32c2a4d](https://github.com/hajs110208/morphe-patches/commit/32c2a4d0df8a34e860a14156915b8c7587b7841a))
+* change packge name ([98c5a66](https://github.com/hajs110208/morphe-patches/commit/98c5a6655ec97aeaaf6ff2171de880b271721dac))
+* Remove music patch ([1aa70b1](https://github.com/hajs110208/morphe-patches/commit/1aa70b1987ae3f7cc4f5ff0b4e6bed9be9c65ce1))
+
 ## [0.2.0-dev.2](https://github.com/hajs110208/morphe-patches/compare/v0.2.0-dev.1...v0.2.0-dev.2) (2026-10-10)
 
 ### ✨ New Features
