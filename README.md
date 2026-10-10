@@ -35,14 +35,16 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v0.1.0](https://github.com/hajs110208/morphe-patches/releases/tag/v0.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v0.2.0-dev.2](https://github.com/hajs110208/morphe-patches/releases/tag/v0.2.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
-<summary>📦 Minecraft&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 Minecraft&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Add mtbinloader2 lib](#add-mtbinloader2-lib) | Add libmtbinloader2.so to the app's native library path. |  |
+| [Change Package Name](#change-package-name) | Changes the app package name to install patch without uninstalling original app.By default, .morphe is appended. | • Package name<br>• Update permissions<br>• Update providers |
+| [Remove music](#remove-music) | Removes music files. This reduces app size. |  |
 
 </details>
 

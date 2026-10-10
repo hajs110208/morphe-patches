@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-07T10:37:01",
-  "description": "## [0.1.0](https://github.com/hajs110208/morphe-patches/compare/v0.0.0...v0.1.0) (2026-10-07)\n\n### ⚠ BREAKING CHANGES\n\n* first release of this fork\n\n### ✨ New Features\n\n* first release ([a890a70](https://github.com/hajs110208/morphe-patches/commit/a890a700af8e74d45fb69b8d71b14f3ae2021c41))",
-  "download_url": "https://github.com/hajs110208/morphe-patches/releases/download/v0.1.0/patches-0.1.0.mpp",
+  "created_at": "2026-10-10T04:44:25",
+  "description": "## [0.2.0-dev.2](https://github.com/hajs110208/morphe-patches/compare/v0.2.0-dev.1...v0.2.0-dev.2) (2026-10-10)\n\n### ✨ New Features\n\n* Change Package Name ([32c2a4d](https://github.com/hajs110208/morphe-patches/commit/32c2a4d0df8a34e860a14156915b8c7587b7841a))\n* change packge name ([98c5a66](https://github.com/hajs110208/morphe-patches/commit/98c5a6655ec97aeaaf6ff2171de880b271721dac))",
+  "download_url": "https://github.com/hajs110208/morphe-patches/releases/download/v0.2.0-dev.2/patches-0.2.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "0.1.0"
+  "version": "0.2.0-dev.2"
 }
