@@ -19,7 +19,7 @@ private fun ByteArray.isPng() =
 @Suppress("unused")
 val changeAppIconPatch = resourcePatch(
     name = "Change app icon",
-    description = "Replaces the app icon shown in the launcher.",
+    description = "Replaces the app icon shown in the launcher into the patch logo. You can set a custom icon if you want other icons.",
     default = false,
 ) {
     compatibleWith(
@@ -32,8 +32,8 @@ val changeAppIconPatch = resourcePatch(
     val iconPathOption = stringOption(
         key = "iconPath",
         default = null,
-        title = "Custom icon file",
-        description = "Path to a PNG file to use as the app icon. " +
+        title = "Custom icon",
+        description = "Icon file (png) " +
             "Leave empty to use the default icon.",
         required = false,
     ) { path ->
@@ -61,8 +61,6 @@ val changeAppIconPatch = resourcePatch(
                 ?.use { it.readBytes() }
                 ?: throw PatchException("Default icon resource not found: $DEFAULT_ICON_RESOURCE")
         }
-
-        // Replace /res/drawable-xxhdpi-v4/icon.png
         get(ICON_RESOURCE_PATH).apply {
             parentFile?.mkdirs()
             writeBytes(iconBytes)
