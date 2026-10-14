@@ -1,3 +1,9 @@
+## [0.4.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.3.0...v0.4.0-dev.1) (2026-10-14)
+
+### ✨ New Features
+
+* Minecraft: Add Change App Icon Patch ([a87c40f](https://github.com/hajs110208/morphe-patches/commit/a87c40f92123759855806c7c73e4a1064dc89266))
+
 ## [0.3.0](https://github.com/hajs110208/morphe-patches/compare/v0.2.0...v0.3.0) (2026-10-14)
 
 ### 🐛 Bug Fixes
