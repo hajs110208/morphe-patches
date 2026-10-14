@@ -1,3 +1,21 @@
+## [0.4.0-dev.3](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.2...v0.4.0-dev.3) (2026-10-14)
+
+### 🐛 Bug Fixes
+
+* fix mbl2 per-abi ([96fa8ab](https://github.com/hajs110208/morphe-patches/commit/96fa8ab10e778eccb4a96a56f2f38a472d4d44ca))
+
+## [0.4.0-dev.2](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.1...v0.4.0-dev.2) (2026-10-14)
+
+### 🐛 Bug Fixes
+
+* change patch description ([f989e51](https://github.com/hajs110208/morphe-patches/commit/f989e5122fbf37c90532c3efa7618dedda97729f))
+
+## [0.4.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.3.0...v0.4.0-dev.1) (2026-10-14)
+
+### ✨ New Features
+
+* Minecraft: Add Change App Icon Patch ([a87c40f](https://github.com/hajs110208/morphe-patches/commit/a87c40f92123759855806c7c73e4a1064dc89266))
+
 ## [0.3.0](https://github.com/hajs110208/morphe-patches/compare/v0.2.0...v0.3.0) (2026-10-14)
 
 ### 🐛 Bug Fixes
