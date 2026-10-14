@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-14T09:07:41",
-  "description": "## [0.4.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.3.0...v0.4.0-dev.1) (2026-10-14)\n\n### ✨ New Features\n\n* Minecraft: Add Change App Icon Patch ([a87c40f](https://github.com/hajs110208/morphe-patches/commit/a87c40f92123759855806c7c73e4a1064dc89266))",
-  "download_url": "https://github.com/hajs110208/morphe-patches/releases/download/v0.4.0-dev.1/patches-0.4.0-dev.1.mpp",
+  "created_at": "2026-10-14T09:56:48",
+  "description": "## [0.4.0-dev.2](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.1...v0.4.0-dev.2) (2026-10-14)\n\n### 🐛 Bug Fixes\n\n* change patxh description ([f989e51](https://github.com/hajs110208/morphe-patches/commit/f989e5122fbf37c90532c3efa7618dedda97729f))",
+  "download_url": "https://github.com/hajs110208/morphe-patches/releases/download/v0.4.0-dev.2/patches-0.4.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "0.4.0-dev.1"
+  "version": "0.4.0-dev.2"
 }

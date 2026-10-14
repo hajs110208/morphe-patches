@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.4.0-dev.1",
+  "version": "0.4.0-dev.2",
   "patches": [
     {
       "name": "Add documents provider",
@@ -158,7 +158,7 @@
     },
     {
       "name": "Change app icon",
-      "description": "Replaces the app icon shown in the launcher.",
+      "description": "Replaces the app icon shown in the launcher into the patch logo. You can set a custom icon if you want other icons.",
       "default": false,
       "category": null,
       "dependencies": [],
@@ -184,8 +184,8 @@
       "options": [
         {
           "key": "iconPath",
-          "title": "Custom icon file",
-          "description": "Path to a PNG file to use as the app icon. Leave empty to use the default icon.",
+          "title": "Custom icon",
+          "description": "Icon file (png) Leave empty to use the default icon.",
           "required": false,
           "type": "kotlin.String",
           "default": null,
