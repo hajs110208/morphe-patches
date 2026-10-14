@@ -2,7 +2,7 @@
 
 ### 🐛 Bug Fixes
 
-* change patxh description ([f989e51](https://github.com/hajs110208/morphe-patches/commit/f989e5122fbf37c90532c3efa7618dedda97729f))
+* change patch description ([f989e51](https://github.com/hajs110208/morphe-patches/commit/f989e5122fbf37c90532c3efa7618dedda97729f))
 
 ## [0.4.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.3.0...v0.4.0-dev.1) (2026-10-14)
 
