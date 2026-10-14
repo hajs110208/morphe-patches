@@ -35,7 +35,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v0.4.0-dev.2](https://github.com/hajs110208/morphe-patches/releases/tag/v0.4.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
+> **[v0.4.0-dev.3](https://github.com/hajs110208/morphe-patches/releases/tag/v0.4.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;6 patches total
 <details open>
 <summary>📦 Minecraft&nbsp;&nbsp;•&nbsp;&nbsp;6 patches</summary>
 <br>
