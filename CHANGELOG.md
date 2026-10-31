@@ -1,3 +1,39 @@
+## [0.4.0-dev.6](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.5...v0.4.0-dev.6) (2026-10-31)
+
+### 🐛 Bug Fixes
+
+* **BackgroundPlay:** point extendWith to background.mpe and use correct extension package ([ef0257e](https://github.com/hajs110208/morphe-patches/commit/ef0257e8d247b9a5078c34c97b50226ba723260d))
+
+## [0.4.0-dev.5](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.4...v0.4.0-dev.5) (2026-10-31)
+
+### 🐛 Bug Fixes
+
+* foreground service patch accidentally not being set default to false ([8d8a94e](https://github.com/hajs110208/morphe-patches/commit/8d8a94e10ef63c44edfa9c2e52eaa45cdf573c5c))
+
+## [0.4.0-dev.4](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.3...v0.4.0-dev.4) (2026-10-31)
+
+### ✨ New Features
+
+* support 1.26.60 (mbl2) ([0c6ad21](https://github.com/hajs110208/morphe-patches/commit/0c6ad21bcfdf5cc8db3757aad59826bbf5ec3871))
+
+## [0.4.0-dev.3](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.2...v0.4.0-dev.3) (2026-10-14)
+
+### 🐛 Bug Fixes
+
+* fix mbl2 per-abi ([96fa8ab](https://github.com/hajs110208/morphe-patches/commit/96fa8ab10e778eccb4a96a56f2f38a472d4d44ca))
+
+## [0.4.0-dev.2](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.1...v0.4.0-dev.2) (2026-10-14)
+
+### 🐛 Bug Fixes
+
+* change patch description ([f989e51](https://github.com/hajs110208/morphe-patches/commit/f989e5122fbf37c90532c3efa7618dedda97729f))
+
+## [0.4.0-dev.1](https://github.com/hajs110208/morphe-patches/compare/v0.3.0...v0.4.0-dev.1) (2026-10-14)
+
+### ✨ New Features
+
+* Minecraft: Add Change App Icon Patch ([a87c40f](https://github.com/hajs110208/morphe-patches/commit/a87c40f92123759855806c7c73e4a1064dc89266))
+
 ## [0.3.0](https://github.com/hajs110208/morphe-patches/compare/v0.2.0...v0.3.0) (2026-10-14)
 
 ### 🐛 Bug Fixes

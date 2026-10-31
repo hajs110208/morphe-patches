@@ -19,6 +19,9 @@ private val mtbinloader2LibPatch = resourcePatch {
         var copied = 0
 
         NATIVE_ABIS.forEach { abi ->
+            val abiDir = get("lib/$abi", false)
+            if (!abiDir.isDirectory) return@forEach
+
             val source = "minecraft/lib/$abi/libmtbinloader2.so"
             val target = "lib/$abi/libmtbinloader2.so"
             val input = patchClassLoader.getResourceAsStream(source) ?: return@forEach
@@ -32,7 +35,9 @@ private val mtbinloader2LibPatch = resourcePatch {
         }
 
         if (copied == 0) {
-            throw PatchException("libmtbinloader2.so not found in patch resources (minecraft/lib/<abi>/)")
+            throw PatchException(
+                "No matching abi found"
+            )
         }
     }
 }
