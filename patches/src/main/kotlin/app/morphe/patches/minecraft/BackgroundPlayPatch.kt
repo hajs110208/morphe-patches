@@ -13,8 +13,8 @@ import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import org.w3c.dom.Element
 
-private const val EXT = "Lapp/template/extension/minecraft/BackgroundPlay;"
-private const val SERVICE = "app.template.extension.minecraft.BackgroundPlayService"
+private const val EXT = "Lapp/morphe/extension/minecraft/background/BackgroundPlay;"
+private const val SERVICE = "app.morphe.extension.minecraft.background.BackgroundPlayService"
 
 private val backgroundPlayManifestPatch = resourcePatch {
     execute {
@@ -62,7 +62,7 @@ val backgroundPlayPatch = bytecodePatch(
 ) {
     compatibleWith("com.mojang.minecraftpe")
     dependsOn(backgroundPlayManifestPatch)
-    extendWith("extensions/extension.mpe")
+    extendWith("extensions/minecraft/background.mpe")
 
     execute {
         MainActivityOnWindowFocusChangedFingerprint.method.addInstructions(0, "const/4 p1, 0x1")
