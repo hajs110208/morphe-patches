@@ -1,3 +1,9 @@
+## [0.4.0-dev.4](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.3...v0.4.0-dev.4) (2026-10-31)
+
+### ✨ New Features
+
+* support 1.26.60 (mbl2) ([0c6ad21](https://github.com/hajs110208/morphe-patches/commit/0c6ad21bcfdf5cc8db3757aad59826bbf5ec3871))
+
 ## [0.4.0-dev.3](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.2...v0.4.0-dev.3) (2026-10-14)
 
 ### 🐛 Bug Fixes
