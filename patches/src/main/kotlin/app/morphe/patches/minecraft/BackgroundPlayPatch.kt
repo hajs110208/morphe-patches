@@ -58,6 +58,7 @@ private val backgroundPlayManifestPatch = resourcePatch {
 val backgroundPlayPatch = bytecodePatch(
     name = "Foreground service",
     description = "Keeps game running in the background.",
+    default = false,
 ) {
     compatibleWith("com.mojang.minecraftpe")
     dependsOn(backgroundPlayManifestPatch)
