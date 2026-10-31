@@ -1,3 +1,9 @@
+## [0.4.0-dev.5](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.4...v0.4.0-dev.5) (2026-10-31)
+
+### 🐛 Bug Fixes
+
+* foreground service patch accidentally not being set default to false ([8d8a94e](https://github.com/hajs110208/morphe-patches/commit/8d8a94e10ef63c44edfa9c2e52eaa45cdf573c5c))
+
 ## [0.4.0-dev.4](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.3...v0.4.0-dev.4) (2026-10-31)
 
 ### ✨ New Features
