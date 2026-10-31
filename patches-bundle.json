@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-31T08:56:18",
-  "description": "## [0.4.0-dev.5](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.4...v0.4.0-dev.5) (2026-10-31)\n\n### 🐛 Bug Fixes\n\n* foreground service patch accidentally not being set default to false ([8d8a94e](https://github.com/hajs110208/morphe-patches/commit/8d8a94e10ef63c44edfa9c2e52eaa45cdf573c5c))",
-  "download_url": "https://github.com/hajs110208/morphe-patches/releases/download/v0.4.0-dev.5/patches-0.4.0-dev.5.mpp",
+  "created_at": "2026-10-31T09:10:30",
+  "description": "## [0.4.0-dev.6](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.5...v0.4.0-dev.6) (2026-10-31)\n\n### 🐛 Bug Fixes\n\n* **BackgroundPlay:** point extendWith to background.mpe and use correct extension package ([ef0257e](https://github.com/hajs110208/morphe-patches/commit/ef0257e8d247b9a5078c34c97b50226ba723260d))",
+  "download_url": "https://github.com/hajs110208/morphe-patches/releases/download/v0.4.0-dev.6/patches-0.4.0-dev.6.mpp",
   "signature_download_url": "",
-  "version": "0.4.0-dev.5"
+  "version": "0.4.0-dev.6"
 }

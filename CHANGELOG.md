@@ -1,3 +1,9 @@
+## [0.4.0-dev.6](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.5...v0.4.0-dev.6) (2026-10-31)
+
+### 🐛 Bug Fixes
+
+* **BackgroundPlay:** point extendWith to background.mpe and use correct extension package ([ef0257e](https://github.com/hajs110208/morphe-patches/commit/ef0257e8d247b9a5078c34c97b50226ba723260d))
+
 ## [0.4.0-dev.5](https://github.com/hajs110208/morphe-patches/compare/v0.4.0-dev.4...v0.4.0-dev.5) (2026-10-31)
 
 ### 🐛 Bug Fixes
